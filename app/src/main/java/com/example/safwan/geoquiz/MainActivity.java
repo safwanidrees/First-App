@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonClick(View view){
-        Intent mintent = new Intent(MainActivity.this, QuizActivity.class);
-        startActivity(mintent);
+        Intent intent = new Intent(MainActivity.this, QuizActivity.class);
+        startActivity(intent);
     }
 }
